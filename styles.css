@@ -1,0 +1,218 @@
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.polaroid-card {
+  width: 300px;
+  height: 200px;
+  background: #333;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.camera-body {
+  width: 100%;
+  height: 155px;
+  background: #86CAB5;
+  position: relative;
+  top: 20;
+}
+
+.body-1{
+  height: 100px;
+  width: 100%;
+  background: #FDE9D0;
+  border-bottom: 7.5px solid #2E272F;
+  position: absolute;
+  bottom: 85px;
+}
+
+.Rana-Button{
+  width: 17px;
+  height: 17px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top : 54px;
+  left :65.5px;
+  border: 3px;px solid #2E272F
+}
+
+.Detail-Rana{
+  width: 9px;
+  height: 9px;
+  background: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  top : 57px;
+  left :67.5px;
+  border: 2px solid #2E272F
+}
+ 
+.lens {
+  width: 67px;
+  height: 67px;
+  background: #2E272F;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 35px);
+  border-radius: 75%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 35px);
+}
+
+.lens-detail {
+  width: 50px;
+  height: 50px;
+  background: #2E272F;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 26.5px);
+  border: 5px solid #fff;
+  position: absolute;
+  top: 52.5px;
+  left: calc(50% - 29px);
+}
+
+.detail {
+  width: 30ppx;
+  height: 30px;
+  background: #2E272F;
+  border-radius: 50%;
+  border: 5px solid #2E272F;
+  position: front;
+}
+
+.viewfinder {
+  width: 40px;
+  height: 32.5px;
+  border-radius: 25%;
+  background: #444;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.flash {
+  width: 20px;
+  height: 10px;
+  background: #ffcc00;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.camera-brand {
+  color: #fff;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+.heart {
+ position: absolute;
+ bottom: -41px;
+ left: -1px; 
+ width: 10px;
+ height: 10px;
+ background-color: #FF0000;
+ transform: rotate(45deg);
+ margin: 50px;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.heart::before {
+    top: -0.0.05cm;
+    left: -0.15cm;
+}
+.heart::after {
+    left: -0.0.5cm;
+    top: -0.15cm;
+
+}
+.photo-frame {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  position: relative;
+
+}
+
+.photo-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.open-text {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.polaroid {
+  text-align: center;
+}
+
+.polaroid-image {
+  width: 150px;
+  height: 150px;
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #fff;
+  margin: 0 auto;
+}
+
+.polaroid-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
